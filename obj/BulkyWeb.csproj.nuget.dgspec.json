@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ibrahimz\\OneDrive\\Desktop\\dotnet projects vscode\\BulkyWeb\\BulkyWeb\\BulkyWeb.csproj": {}
+    "C:\\Users\\ibrahimz\\OneDrive\\Desktop\\Dotnet Projects\\BulkyWeb\\BulkyWeb\\BulkyWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ibrahimz\\OneDrive\\Desktop\\dotnet projects vscode\\BulkyWeb\\BulkyWeb\\BulkyWeb.csproj": {
+    "C:\\Users\\ibrahimz\\OneDrive\\Desktop\\Dotnet Projects\\BulkyWeb\\BulkyWeb\\BulkyWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ibrahimz\\OneDrive\\Desktop\\dotnet projects vscode\\BulkyWeb\\BulkyWeb\\BulkyWeb.csproj",
+        "projectUniqueName": "C:\\Users\\ibrahimz\\OneDrive\\Desktop\\Dotnet Projects\\BulkyWeb\\BulkyWeb\\BulkyWeb.csproj",
         "projectName": "BulkyWeb",
-        "projectPath": "C:\\Users\\ibrahimz\\OneDrive\\Desktop\\dotnet projects vscode\\BulkyWeb\\BulkyWeb\\BulkyWeb.csproj",
+        "projectPath": "C:\\Users\\ibrahimz\\OneDrive\\Desktop\\Dotnet Projects\\BulkyWeb\\BulkyWeb\\BulkyWeb.csproj",
         "packagesPath": "C:\\Users\\ibrahimz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ibrahimz\\OneDrive\\Desktop\\dotnet projects vscode\\BulkyWeb\\BulkyWeb\\obj\\",
+        "outputPath": "C:\\Users\\ibrahimz\\OneDrive\\Desktop\\Dotnet Projects\\BulkyWeb\\BulkyWeb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ibrahimz\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
