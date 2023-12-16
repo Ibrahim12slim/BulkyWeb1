@@ -1,8 +1,41 @@
-﻿@{
+﻿@model List<Category>
+@{
     ViewBag.Title = "title";
     Layout = "_Layout";
 }
 
-<div style="text-align: center">
-    <h2>Hello Categories</h2>
+<div class="container">
+  <div class="row pt-4">
+     <div class="col-6">
+        <h2 class="text-primary">
+          Category List
+        </h2>
+      </div>
+      
+      <div class="col-6 text-end" >
+        <a asp-controller="Category" asp-action="Create" class="btn btn-primary">
+          <i class="bi bi-plus-circle"></i> Create New Category
+        </a>
+      </div>
+  </div>
+
+  <div style="text-align: center">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th scope="col">Category Name</th>
+        <th scope="col">Display Order</th>
+      </tr>
+      </thead>
+      <tbody>
+      @foreach (var obj in Model)
+      {
+        <tr>
+          <td>@obj.Name</td>
+          <td>@obj.DisplayOrder</td>
+        </tr>
+      }
+      </tbody>
+    </table>
+  </div>
 </div>
