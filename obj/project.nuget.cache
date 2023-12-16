@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5ZwLmRtTNCaM6EM+rCu03XCyZ9nW7iBfGqh4K7Gyu6qhCkhxkBbF35vVIBFKMBzGsYo7bQ1f6LRy7A6d2SISfw==",
+  "dgSpecHash": "JaqCTFJYzucpDxBddxmz93OZvWdcDytWyBufNxSqjIyrrHrnAVruxEEXIlsxYr8s6o9C5k+16GBP5nEE1Lninw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ibrahimz\\OneDrive\\Desktop\\Dotnet Projects\\BulkyWeb\\BulkyWeb\\BulkyWeb.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,8 @@
     "C:\\Users\\ibrahimz\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\ibrahimz\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\ibrahimz\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\ibrahimz\\.nuget\\packages\\pester\\4.0.5-rc\\pester.4.0.5-rc.nupkg.sha512",
+    "C:\\Users\\ibrahimz\\.nuget\\packages\\pesterforpackagemanagerconsole\\2.0.0-rc\\pesterforpackagemanagerconsole.2.0.0-rc.nupkg.sha512",
     "C:\\Users\\ibrahimz\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\ibrahimz\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\ibrahimz\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",
